@@ -1,0 +1,55 @@
+Git Basics
+
+Commands 
+
+git init - It's a command used to start a new Git repository in your project folder.
+
+           I want to track changes, collaborate, or go back in time if something breaks.
+
+Untracked things stays in working directory whatever I am creating whether it's folder or document.
+
+🗃️ Working Directory
+What it is:
+This is the folder on your computer where you're currently working on your project files.
+
+Example:
+You open a folder and start editing a file (like essay.txt). You’re typing and making changes.
+
+📦 Staging Area (Index)
+What it is:
+A place where you prepare your files before saving them permanently in Git.
+
+Example:
+After editing essay.txt, you say, "Okay, I’m ready to save this version." So you add it to the staging area using git add essay.txt.
+
+It's like putting your finished homework in a folder and saying, “This is ready to be submitted.”
+
+
+Local Repository
+What it is:
+This is your personal Git database on your computer. When you “commit,” you're saving a version of your files here.
+
+Example:
+You run git commit -m "Finished essay" — now that version of your essay is stored in your local Git history. You can go back to it later if needed.
+
+🌐 Remote Repository
+What it is:
+A version of your Git project stored online (like GitHub, GitLab, or Bitbucket) that you or your team can access and collaborate on.
+
+Example:
+After you've committed your changes locally, you can push them to GitHub using git push. Now your teacher (or team) can see your homework.
+
+
+
+Workflow 
+
+Working directory  - what ever files exist in WD we can send what ever we want to staging area. you add files individually to the staging area which file you want and which file don't 
+And from there to local repo and remote repo you can't send files individually. you have to send it in a batch.
+
+WD                --------------------> Staging area -----> Local repo -----> Remote Repo
+individual files    Have a choice                    Batch             Batch
+(You create)        What to send or not 
+
+
+
+ 
