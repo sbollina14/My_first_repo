@@ -25,6 +25,8 @@ After editing essay.txt, you say, "Okay, I’m ready to save this version." So y
 It's like putting your finished homework in a folder and saying, “This is ready to be submitted.”
 
 
+
+
 Local Repository
 What it is:
 This is your personal Git database on your computer. When you “commit,” you're saving a version of your files here.
@@ -49,6 +51,13 @@ And from there to local repo and remote repo you can't send files individually. 
 WD                --------------------> Staging area -----> Local repo -----> Remote Repo
 individual files    Have a choice                    Batch             Batch
 (You create)        What to send or not 
+
+
+
+Command - (git branch) tells you which branch we are in
+
+Check out - command helps to switch branches
+check out -b "name of branch" : helps to create a new branch
 
 
 
